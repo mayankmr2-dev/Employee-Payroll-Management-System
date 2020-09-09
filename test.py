@@ -149,12 +149,66 @@ class EmployeeSystem:
                      width=5, font=('times', 15), bg="#ffffb9")
         Year.place(x=220, y=10)
 
-        # Basic_Salary = Label(Frame2, text="Basic Salary", font=('times', 15))
-        # Basic_Salary.place(x=220, y=10)
+        Basic_Salary = Label(Frame2, text="Salary", font=('times', 15))
+        Basic_Salary.place(x=330, y=10)
 
-        # Basic_Salary = Entry(Frame2, relief=RIDGE, bd=3,
-        #                      width=5, font=('times', 15), bg="#ffffb9")
-        # Basic_Salary.place(x=220, y=10)
+        Basic_Salary = Entry(Frame2, relief=RIDGE, bd=3,
+                             width=10, font=('times', 15), bg="#ffffb9")
+        Basic_Salary.place(x=400, y=10)
+
+        TotalDays = Label(Frame2, text="Total Days ", font=('times', 15))
+        TotalDays.place(x=10, y=60)
+
+        TotalDays = Entry(Frame2, relief=RIDGE, bd=3,
+                          width=8, font=('times', 15), bg="#ffffb9")
+        TotalDays.place(x=110, y=60)
+
+        Medical = Label(Frame2, text="Medical ", font=('times', 15))
+        Medical.place(x=10, y=100)
+
+        Medical = Entry(Frame2, relief=RIDGE, bd=3,
+                        width=8, font=('times', 15), bg="#ffffb9")
+        Medical.place(x=110, y=100)
+
+        Convence = Label(Frame2, text="Convence ", font=('times', 15))
+        Convence.place(x=10, y=140)
+
+        Convence = Entry(Frame2, relief=RIDGE, bd=3,
+                         width=8, font=('times', 15), bg="#ffffb9")
+        Convence.place(x=110, y=140)
+
+        Absents = Label(Frame2, text="Absents ", font=('times', 15))
+        Absents.place(x=220, y=60)
+
+        Absents = Entry(Frame2, relief=RIDGE, bd=3,
+                        width=8, font=('times', 15), bg="#ffffb9")
+        Absents.place(x=320, y=60)
+
+        PF = Label(Frame2, text="PF ", font=('times', 15))
+        PF.place(x=220, y=100)
+
+        PF = Entry(Frame2, relief=RIDGE, bd=3,
+                   width=8, font=('times', 15), bg="#ffffb9")
+        PF.place(x=320, y=100)
+
+        NetSalary = Label(Frame2, text="Net Salary ", font=('times', 15))
+        NetSalary.place(x=220, y=140)
+
+        NetSalary = Entry(Frame2, relief=RIDGE, bd=3,
+                          width=8, font=('times', 15), bg="#ffffb9")
+        NetSalary.place(x=320, y=140)
+
+        Calculate = Button(Frame2, text="Calculate",
+                           relief=GROOVE, bg="#25004a", fg="#ffffce", font=('times', 15), borderwidth=4)
+        Calculate.place(x=120, y=200)
+
+        Save = Button(Frame2, text="Save",
+                      relief=GROOVE, bg="#25004a", fg="#ffffce", font=('times', 15), borderwidth=4)
+        Save.place(x=240, y=200)
+
+        Clear = Button(Frame2, text="Clear",
+                       relief=GROOVE, bg="#25004a", fg="#ffffce", font=('times', 15), borderwidth=4)
+        Clear.place(x=330, y=200)
 
 
 root = Tk()
